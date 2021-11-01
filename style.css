@@ -31,9 +31,10 @@ body {
 
 .headerImg {
     border-radius: 3%;
-    display: flex;
-    justify-content: center;
     max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height:auto;
     margin-top: 175px;
 }
@@ -50,18 +51,31 @@ body {
     flex-direction: row;
 }
 
-/* .linebar {
-    margin: 0;
-    color: #e96661;
-    padding: 20px;
-    display: block;
-} */
+.linebar {
 
-.firstQuote {
+}
+
+.firstQuote, .secondQuote {
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     text-align: justify;
     font-size: 1.5em;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     color: #333333;
 }
+
+.quotesAndSummary p, .timelineAll p, .timelineAll h2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+strong {
+    margin-right: 15px;
+}
+
 
