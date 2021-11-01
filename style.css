@@ -68,7 +68,7 @@ body {
     margin-right: 10%;
 }
 
-.quotesAndSummary p, .timelineAll p{
+.quotesAndSummary p, .timelineAll p, .externalLinks{
     display: flex;
     justify-content: center;
     text-align: justify;
@@ -104,6 +104,30 @@ strong {
 .video {
     text-align: center;
     max-width: 100%;
+}
+
+.externalLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.externalLinks h3 {
+    color: #e96661;
+    margin-bottom: 0;
+}
+
+.externalLinks p {
+    margin-top: 0;
+}
+
+.divlinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    color: #e96661;
+    margin-bottom: 10px;
 }
 
 
