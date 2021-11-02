@@ -51,10 +51,6 @@ body {
     flex-direction: row;
 }
 
-.linebar {
-
-}
-
 .firstQuote, .secondQuote {
     /* display: flex;
     justify-content: center; */
@@ -163,6 +159,13 @@ figure .bookImage {
     color: #e96661;
     display: flex;
     justify-content: center;
+}
+
+.readMore:hover {
+    color: white;
+    background-color: #e96661;
+    text-decoration: none;
+    padding: 10px;
 }
 
 
