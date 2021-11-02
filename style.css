@@ -82,8 +82,9 @@ strong {
 }
 
 .timelineAll h2 {
-    color: #333333;
+    color: #e96661;
     margin-left: 10%;
+    margin-top: 50px;
 }
 
 .timelineImages {
@@ -105,6 +106,8 @@ strong {
 .video {
     text-align: center;
     max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .externalLinks {
