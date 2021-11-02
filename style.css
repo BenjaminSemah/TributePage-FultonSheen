@@ -139,7 +139,30 @@ strong {
     background-color: #e96661;
     color: white;
     text-decoration: none;
+}
 
+ul  {
+    list-style-type: none;
+}
+
+.books ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure .bookImage {
+    height: 300px;
+    width: 200px;
+    border-radius: 7%;
+}
+
+.readMore {
+    font-weight: bold;
+    color: #e96661;
+    display: flex;
+    justify-content: center;
 }
 
 
